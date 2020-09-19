@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerlessMaterializedView", "ServerlessMaterializedView\ServerlessMaterializedView.csproj", "{3DDB8958-176E-419D-97BF-A116E5C89BAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGenerator", "DataGenerator\DataGenerator.csproj", "{08FBFDE2-5D2C-4660-B467-C74CF79D572B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataGenerator", "DataGenerator\DataGenerator.csproj", "{08FBFDE2-5D2C-4660-B467-C74CF79D572B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{DFD50826-64AE-4927-BF84-8EBBA5785BE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{08FBFDE2-5D2C-4660-B467-C74CF79D572B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08FBFDE2-5D2C-4660-B467-C74CF79D572B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08FBFDE2-5D2C-4660-B467-C74CF79D572B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD50826-64AE-4927-BF84-8EBBA5785BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD50826-64AE-4927-BF84-8EBBA5785BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD50826-64AE-4927-BF84-8EBBA5785BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD50826-64AE-4927-BF84-8EBBA5785BE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
